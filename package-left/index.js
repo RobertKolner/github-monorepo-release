@@ -1,1 +1,1 @@
-console.log("This is package-left");
+console.log("This is package-left output");
