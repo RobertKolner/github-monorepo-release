@@ -13,6 +13,7 @@ jobs:
           release-type: node
           package-name: release-package-left
           path: package-left
-          monorepo-tags: package-left
-          component: package-left
+          monorepo-tags: true
           signoff: "Robert Kolner <robert.kolner@noaignite.com>"
+      - run: echo "Release created"
+        if: ${{ steps.release.outputs.release_created }}
