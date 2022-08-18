@@ -17,6 +17,12 @@ jobs:
           path: package-right
           monorepo-tags: true
           signoff: "Robert Kolner <robert.kolner@noaignite.com>"
+      - run: echo "$MAJOR.$MINOR.$PATCH: $RELEASE_STATUS"
+        with:
+          RELEASE_STATUS: ${{ steps.release.outputs.release_created }}
+          MAJOR: ${{ steps.release.outputs.major }}
+          MINOR: ${{ steps.release.outputs.minor }}
+          PATCH: ${{ steps.release.outputs.patch }}
 
   echo:
     runs-on: ubuntu-latest
