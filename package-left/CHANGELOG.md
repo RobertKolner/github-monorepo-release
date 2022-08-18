@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/RobertKolner/github-monorepo-release/compare/release-package-left-v1.0.0...release-package-left-v1.1.0) (2022-08-18)
+
+
+### Features
+
+* **package-left:** Add second line ([47304eb](https://github.com/RobertKolner/github-monorepo-release/commit/47304eba310d047c6db4e100676d7194eae98fd1))
+
+
+### Bug Fixes
+
+* **package-left:** Fix output ([04d34d9](https://github.com/RobertKolner/github-monorepo-release/commit/04d34d9713cfa54927fc240d7b428e88c469f6e7))
+
 ## 1.0.0 (2022-08-18)
 
 
