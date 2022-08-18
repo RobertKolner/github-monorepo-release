@@ -7,7 +7,7 @@ jobs:
   create-release:
     runs-on: ubuntu-latest
     outputs:
-      release_created: ${{ steps.release.outputs.release_created }}
+      release_created: ${{ steps.release.outputs.package-right--release_created }}
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
@@ -17,7 +17,9 @@ jobs:
           path: package-right
           monorepo-tags: true
           signoff: "Robert Kolner <robert.kolner@noaignite.com>"
-      - run: echo "${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }} -- ${{ steps.release.outputs.release_created }}"
+      - run: echo "Releases created -- ${{ steps.release.outputs.releases_created }}"
+      - run: echo "Release left created -- ${{ steps.release.outputs.package-left--release_created }}"
+      - run: echo "Release right created -- ${{ steps.release.outputs.package-right--release_created }}"
 
   echo:
     runs-on: ubuntu-latest
