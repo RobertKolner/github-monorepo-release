@@ -20,7 +20,7 @@ jobs:
 
   echo:
     runs-on: ubuntu-latest
-    needs: [release-please]
+    needs: [create-release]
     if: ${{ needs.create-release.outputs.release_created }}
     steps:
       - run: echo "Release created"
