@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - master
+name: release-please
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        id: release
+        with:
+          release-type: node
+          package-name: release-package-left
+          path: package-left
+          monorepo-tags: package-left
+          component: package-left
+          signoff: "Robert Kolner <robert.kolner@noaignite.com>"
