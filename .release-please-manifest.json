@@ -1,0 +1,17 @@
+{
+  "bootstrap-sha": "78fc61e75b774e363736a555b15fa2bb279cabe8",
+  "release-type": "node",
+  "separate-pull-requests": true,
+  "release-search-depth": 20,
+  "commit-search-depth": 10,
+
+  "packages": {
+    "package-left": {
+      "package-name": "package-left"
+    },
+
+    "package-right": {
+      "package-name": "package-right"
+    }
+  }
+}
