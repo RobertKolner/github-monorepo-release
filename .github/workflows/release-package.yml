@@ -10,7 +10,7 @@ jobs:
       release_created: ${{ steps.release.outputs.package-left--release_created }}
       paths_released: ${{ steps.release.outputs.paths-released }}
     steps:
-      - uses: google-github-actions/release-please-action@d39db9f1d923fc940f562678a3479d4d3512adaf
+      - uses: google-github-actions/release-please-action@v3
         id: release
         with:
           command: manifest
