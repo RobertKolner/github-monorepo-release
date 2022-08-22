@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/RobertKolner/github-monorepo-release/compare/release-package-left-v1.1.0...release-package-left-v1.1.1) (2022-08-22)
+
+
+### Bug Fixes
+
+* Update both packages ([78fc61e](https://github.com/RobertKolner/github-monorepo-release/commit/78fc61e75b774e363736a555b15fa2bb279cabe8))
+
 ## [1.1.0](https://github.com/RobertKolner/github-monorepo-release/compare/release-package-left-v1.0.0...release-package-left-v1.1.0) (2022-08-18)
 
 
