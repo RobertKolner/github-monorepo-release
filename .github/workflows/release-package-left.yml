@@ -16,6 +16,8 @@ jobs:
           package-name: release-package-left
           path: package-left
           monorepo-tags: true
+          release-search-depth: 10
+          commit-search-depth: 20
           signoff: "Robert Kolner <robert.kolner@noaignite.com>"
       - run: echo "Releases created -- ${{ steps.release.outputs.releases_created }}"
       - run: echo "Release left created -- ${{ steps.release.outputs.package-left--release_created }}"
