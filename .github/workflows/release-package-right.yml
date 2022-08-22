@@ -16,7 +16,7 @@ jobs:
           package-name: release-package-right
           path: package-right
           monorepo-tags: true
-          command: manifest
+          bootstrap-sha: 7b2366400a967ba3e4b50cb15eb6588c2a77cc06
           signoff: "Robert Kolner <robert.kolner@noaignite.com>"
       - run: echo "Releases created -- ${{ steps.release.outputs.releases_created }}"
       - run: echo "Release left created -- ${{ steps.release.outputs.package-left--release_created }}"
