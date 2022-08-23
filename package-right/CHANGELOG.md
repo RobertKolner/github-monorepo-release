@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.0 (2022-08-23)
+
+
+### Bug Fixes
+
+* Add line ([85d217b](https://github.com/RobertKolner/github-monorepo-release/commit/85d217b3bf5c4990f1fbe509041a2e40d51e362f))
+* Add line ([13287e3](https://github.com/RobertKolner/github-monorepo-release/commit/13287e3e73ac16f4ef820012e9a04a80442ddec8))
+* New line ([726862b](https://github.com/RobertKolner/github-monorepo-release/commit/726862b6bd6d4766c357cfdfcb27043203697c72))
+* Remove line ([4234831](https://github.com/RobertKolner/github-monorepo-release/commit/4234831115fec4c81ae55e07ece46121c557d5cc))
+* Remove line ([57ef7bf](https://github.com/RobertKolner/github-monorepo-release/commit/57ef7bfcab94b746721acbb8ee2d21dc3985ed81))
+
 ## [1.0.3](https://github.com/RobertKolner/github-monorepo-release/compare/right-v1.0.2...right-v1.0.3) (2022-08-23)
 
 
