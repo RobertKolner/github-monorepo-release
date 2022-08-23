@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/RobertKolner/github-monorepo-release/compare/right-v1.0.2...right-v1.0.3) (2022-08-23)
+
+
+### Bug Fixes
+
+* **package-right:** Remove unused lines ([a1a9247](https://github.com/RobertKolner/github-monorepo-release/commit/a1a9247432493178aa41c8f5260bd52e2ca00053))
+
 ## [1.0.2](https://github.com/RobertKolner/github-monorepo-release/compare/package-right-v1.0.1...package-right-v1.0.2) (2022-08-22)
 
 
