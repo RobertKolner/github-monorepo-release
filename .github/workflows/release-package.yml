@@ -28,7 +28,6 @@ jobs:
   echo-package-left:
     runs-on: ubuntu-latest
     needs: [create-release]
-    name: Release ${{ needs.create-release.outputs.git_tag_left }}
     if: ${{ needs.create-release.outputs.release_left }}
     steps:
       - uses: actions/checkout@v3
@@ -40,7 +39,6 @@ jobs:
   echo-package-right:
     runs-on: ubuntu-latest
     needs: [create-release]
-    name: Release ${{ needs.create-release.outputs.git_tag_right }}
     if: ${{ needs.create-release.outputs.release_right }}
     steps:
       - uses: actions/checkout@v3
