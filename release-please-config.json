@@ -8,10 +8,10 @@
 
   "packages": {
     "package-left": {
-      "component": "left"
+      "component": "package-left"
     },
     "package-right": {
-      "component": "right"
+      "component": "package-right"
     }
   }
 }
