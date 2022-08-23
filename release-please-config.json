@@ -4,10 +4,14 @@
   "separate-pull-requests": true,
   "release-search-depth": 20,
   "commit-search-depth": 10,
+  "pull-request-title-pattern": "chore${scope}: ${component} ${version}",
 
   "packages": {
-    "package-left": {},
-
-    "package-right": {}
+    "package-left": {
+      "component": "left"
+    },
+    "package-right": {
+      "component": "right"
+    }
   }
 }
