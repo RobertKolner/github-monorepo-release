@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.4](https://github.com/RobertKolner/github-monorepo-release/compare/left-v1.1.3...left-v1.1.4) (2022-08-23)
+
+
+### Bug Fixes
+
+* Add a line to remove later ([26b73ce](https://github.com/RobertKolner/github-monorepo-release/commit/26b73ce96569e609f02aef2c4e89ca101aa597b5))
+* Remove unnecessary lines from package-left ([b4a445b](https://github.com/RobertKolner/github-monorepo-release/commit/b4a445bbd747fe8ae6f04b7db36d19aedc5038b5))
+
 ## [1.1.3](https://github.com/RobertKolner/github-monorepo-release/compare/package-left-v1.1.2...package-left-v1.1.3) (2022-08-22)
 
 
